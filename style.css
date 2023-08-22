@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.section-1{
+/* background-color: aqua; */
+background-image: url(./profile_img.jpg);
+background-size:cover;
+height: 100vh;
+}
+.section-2{
+  /* background-color:blue; */
+  height: 100vh;
+  
+}
+.section-3{
+    /* background-color:blueviolet; */
+    height: 100vh;
+      
+}
+.d-N{
+display: flex;
+justify-content:space-between;
+font-size: 20px;
+font-weight: 600;
+}
+body{
+  font-family: 'Rubik', sans-serif;
+  background-color: black;
+  color: white;
+}
+h1{
+  margin-top: 50px;
+  font-size: 40px;
+
+  /* width: 10px; */
+}
+p{
+  font-size: 20px;
+  margin-top: 20px;
+} 
+.common{
+width: 1200px;
+margin-left: auto;
+margin-right: auto;
+}
+.a-btn{
+background-color: orangered;
+padding: 16px 32px;
+margin-top: 20px;
+display: inline-block;
+/* width: 50px; */
+border-radius: 10px;
+color: white;
+text-decoration: none;
+font-size: 20px;
+font-weight: 600;
+}
+
+
+.a-div{
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
+}
+.a-tag{
+color: white;
+text-decoration: none;
+}
+.h-p-a-common{
+  width: 50%;
+}
+.contact-msg{
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow:0px 0px 290px red;
+}
+img{
+  width: 100px;
+}
+#scroll-btn {
+  position: absolute;
+  height: 10em;
+  width: 6.25em;
+  border: 0.5em solid #ffffff;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 6.25em;
+  border-radius: 3em;
+}
+#scroll-btn:before {
+  position: absolute;
+  content: "";
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 1.2em;
+  height: 1.2em;
+  width: 1.2em;
+  background-color: #ffffff;
+  border-radius: 50%;
+  animation: move-down 2s infinite;
+}
